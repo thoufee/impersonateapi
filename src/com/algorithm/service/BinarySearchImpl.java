@@ -54,7 +54,7 @@ public  class BinarySearchImpl implements BinarySearch {
 		{
 		    if (node != null) {
 		      printInOrder(node.left);
-		      System.out.println("  Traversed " + node.data);
+		      System.out.print(node.data + " ");
 		      //Store in an array
 		      arr.add(node.data);
 		      printInOrder(node.right);
